@@ -23,9 +23,9 @@ def OnClick():
     #details to make the code
     email_sender=''    #Give the mail id from which you want to send the otp
     email_password=''  #not the normal password,the password generated from of the given mail id myaccounts.google.com/u/4/apppassword
-    #this should be a 16 digit with 3 spaces in the format abcd efgh ijkl mnop
+    #this should be a 16 digit with 3 spaces in the format-> abcd efgh ijkl mnop
     email_reciever=e1.get()
-
+    #To define the subject and the body of the mail
     subject=f'OTP=>{otp}'
     body=f"Your OTP is {otp}"
     #creating the mail
